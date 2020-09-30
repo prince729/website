@@ -9,7 +9,7 @@ jobs:
       - image: circleci/redis:5.0.5-alpine
       - image: circleci/postgres:11.4-alpine
         environment:
-          POSTGRES_USER: postgres
+          prince: postgres
           POSTGRES_DB: pyslacker_test
           POSTGRES_PASSWORD: ""
 
